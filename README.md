@@ -1,7 +1,7 @@
 # Ratoi Vasile
 
-https://ratoivasile.github.io/mogo/ - fara animatii si nu e optimizat pentru telefon
+[MoGo](https://ratoivasile.github.io/mogo/ "Fara animatii si nu e optimizat pentru telefon")
 
-https://ratoivasile.github.io/sarajevo/
+[Sarajevo.](https://ratoivasile.github.io/sarajevo/ "sarajevo.")
 
 
