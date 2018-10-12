@@ -4,10 +4,30 @@
   outline: none;
 }
 
+#scroll {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+  position: fixed;
+  color: #fff;
+  right: 3%;
+  bottom: 3%;
+  border: none;
+  background: none;
+  background-color: #4c76ff;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+#scroll:hover {
+  background-color: #7f9dff;
+}
+
 body {
   min-width: 500px;
   background-color: #FCFCFC;
   font-family: "Lato", sans-serif;
+  position: relative;
 }
 
 a {
@@ -814,6 +834,10 @@ header .socials a:hover {
   }
   .discuss .say-hello .form-input {
     width: 70%;
+  }
+
+  #scroll {
+    display: none;
   }
 }
 
