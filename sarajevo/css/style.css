@@ -4,6 +4,13 @@
   outline: none;
 }
 
+body {
+  min-width: 500px;
+  background-color: #FCFCFC;
+  font-family: "Lato", sans-serif;
+  position: relative;
+}
+
 #scroll {
   width: 40px;
   height: 40px;
@@ -20,14 +27,50 @@
   transition: 0.5s;
 }
 #scroll:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
   background-color: #7f9dff;
 }
 
-body {
-  min-width: 500px;
-  background-color: #FCFCFC;
-  font-family: "Lato", sans-serif;
-  position: relative;
+.preloader-box {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  transition: 0.5s;
+}
+.preloader-box .preloader {
+  width: 150px;
+  height: 150px;
+  margin-left: calc(50% - 75px);
+  margin-top: 300px;
+  position: absolute;
+  z-index: 100;
+  animation: spin 1s infinite linear;
+}
+.preloader-box .preloader, .preloader-box .preloader::before, .preloader-box .preloader::after {
+  border: 3px solid transparent;
+  border-top-color: #4c76ff;
+  border-radius: 50%;
+}
+.preloader-box .preloader::before, .preloader-box .preloader::after {
+  content: "";
+  position: absolute;
+}
+.preloader-box .preloader::before {
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  animation: spin 1.2s infinite linear;
+}
+.preloader-box .preloader::after {
+  top: 23px;
+  left: 23px;
+  right: 23px;
+  bottom: 23px;
+  animation: spin 1.5s infinite linear;
 }
 
 a {
@@ -624,6 +667,14 @@ header .socials a:hover {
   color: #999999;
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 @media screen and (max-width: 1199px) {
   .features .circle {
     margin-left: 30px;

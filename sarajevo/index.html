@@ -13,7 +13,10 @@
     <title>sarajevo.</title>
 </head>
 <body>
-    
+    <!-- PRELOADER -->
+    <div class="preloader-box">
+        <div class="preloader"></div>
+    </div>
     <!-- HEADER -->
     <header>
         <div class="header">
@@ -583,6 +586,12 @@
     <script>
         new WOW().init();
         $(document).ready(function(){
+
+            // PRELOADER
+            $('.preloader-box').css('display', 'none');
+            
+
+            // SCROLL
             $(window).scroll(function(){
                 if($(this).scrollTop() > 500){
                     $('#scroll').fadeIn();
@@ -591,28 +600,24 @@
                 }
             });
 
+            // NAV
             $('#scroll').on('click', function(){
                 $('html, body').animate({scrollTop: 0}, 600);
-                return false;
             });
 
             $('#features-btn').on('click', function(){
                 $('html, body').animate({scrollTop: 800}, 600);
-                return false;
             });
 
             $('#works-btn').on('click', function(){
                 $('html, body').animate({scrollTop: 2250}, 600);
-                return false;
             });
 
             $('#team-btn').on('click', function(){
                 $('html, body').animate({scrollTop: 3050}, 600);
-                return false;
             });
             $('#contact-btn').on('click', function(){
                 $('html, body').animate({scrollTop: 4500}, 600);
-                return false;
             });
         });
     </script>
