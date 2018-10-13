@@ -7,7 +7,7 @@
 }
 
 body{
-    min-width: 500px;
+    min-width: 320px;
     background-color: $bgcolor;
     font-family: $lato;
     position: relative;
@@ -690,8 +690,7 @@ header{
             &-first{
                 margin-right: 30px;
             }
-            a{
-                display: block;
+            a{                
                 font-family: $openSans;
                 font-weight: 400;
                 font-size: 12px;

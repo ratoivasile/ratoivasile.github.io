@@ -5,7 +5,7 @@
 }
 
 body {
-  min-width: 500px;
+  min-width: 320px;
   background-color: #FCFCFC;
   font-family: "Lato", sans-serif;
   position: relative;
@@ -654,7 +654,6 @@ header .socials a:hover {
   margin-right: 30px;
 }
 .footer .explore-links a {
-  display: block;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 12px;
