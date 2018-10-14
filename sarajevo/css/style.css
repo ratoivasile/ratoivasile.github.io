@@ -195,8 +195,13 @@ header .socials a:hover {
   padding-bottom: 120px;
   background-color: #ECECEC;
 }
+.features .img-fix {
+  position: relative;
+}
 .features .circle {
-  margin-left: 50px;
+  position: absolute;
+  top: 0;
+  left: 0px;
   width: 35px;
   height: 35px;
   line-height: 28px;
@@ -204,12 +209,15 @@ header .socials a:hover {
   border-radius: 50%;
   text-align: center;
 }
-.features-sub-title {
+.features-descr {
+  padding-left: 40px;
+}
+.features-descr-sub-title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   color: #061f33;
 }
-.features-descr {
+.features-descr p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #061f33;
@@ -218,6 +226,7 @@ header .socials a:hover {
 }
 
 .offers {
+  position: relative;
   padding-bottom: 60px;
   background-color: #FCFCFC;
   background: url("../img/offers-bg.png") center 200px no-repeat;
@@ -231,6 +240,7 @@ header .socials a:hover {
   line-height: 36px;
 }
 .offers-hover {
+  position: relative;
   margin: 40px 0;
   width: 100%;
   border-radius: 10px;
@@ -243,8 +253,10 @@ header .socials a:hover {
   color: #333;
 }
 .offers-logo {
-  position: relative;
-  display: inline-block;
+  top: 95px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
 }
 .offers-logo .fa {
   margin-right: 30px;
@@ -258,7 +270,6 @@ header .socials a:hover {
 .offers-info {
   margin-left: 60px;
   width: 80%;
-  display: inline-block;
 }
 .offers-info .offers-title {
   padding-top: 20px;
@@ -288,18 +299,35 @@ header .socials a:hover {
   line-height: 24px;
 }
 .works .nav {
-  width: 600px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
   margin-bottom: 75px;
-  margin-left: calc(50% - 300px);
+  border-bottom: 0;
 }
 .works .nav .active {
   background-color: #4c76ff;
+  border-radius: 10px;
+  color: #fff;
+}
+.works .nav .active:hover {
+  color: #fff;
 }
 .works .nav-item {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .works .nav-link {
+  font-family: "Lato", sans-serif;
+  color: #222;
+  font-size: 14px;
+  font-weight: 700;
   padding: 10px 20px;
+  cursor: pointer;
+}
+.works .nav-link:hover {
+  border: none;
+  transform: translate(1px, 1px);
+  margin-right: 2px;
 }
 .works-images {
   padding-bottom: 50px;
@@ -672,222 +700,6 @@ header .socials a:hover {
   }
   to {
     transform: rotate(360deg);
-  }
-}
-@media screen and (max-width: 1199px) {
-  .features .circle {
-    margin-left: 30px;
-  }
-
-  .offers-hover {
-    margin: 20px 0;
-  }
-  .offers-info .offers-title {
-    padding-top: 0px;
-  }
-  .offers-logo .fa {
-    top: 5px;
-  }
-
-  .team-photos-effect-hover {
-    left: 0;
-  }
-}
-@media screen and (max-width: 991px) {
-  header .header {
-    height: 80px;
-  }
-  header .header .navbar-toggler {
-    outline: none;
-  }
-  header .header .fa-bars {
-    padding: 10px;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 10px;
-  }
-  header .header .navbar-nav {
-    margin-top: 20px;
-    text-align: right;
-  }
-  header .header .nav-item {
-    padding-right: 0;
-  }
-  header .header .nav-item .nav-link {
-    margin-right: 0;
-  }
-
-  .features {
-    text-align: center;
-  }
-  .features .heart {
-    margin-bottom: 50px;
-  }
-  .features .circle {
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .offers {
-    background: none;
-    background-color: #FCFCFC;
-  }
-  .offers-descr {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .team-photos-effect {
-    margin-bottom: 30px;
-  }
-  .team-photos-effect-hover {
-    left: 53px;
-  }
-
-  .footer-descr {
-    padding-right: 10px;
-  }
-  .footer .subscribe-input + p {
-    margin-right: 0px;
-    padding-right: 0;
-  }
-  .footer .explore {
-    margin-left: 60px;
-  }
-  .footer .explore-links {
-    margin-left: 60px;
-  }
-}
-@media screen and (max-width: 767px) {
-  header h1 {
-    font-size: 50px;
-  }
-  header h1 + p {
-    font-size: 35px;
-  }
-
-  .offers {
-    text-align: center;
-  }
-  .offers-info {
-    padding-top: 50px;
-  }
-  .offers-logo .fa {
-    top: -100px;
-    left: 250px;
-  }
-
-  .works-images-effect:hover .works-images-effect-hover {
-    display: none;
-  }
-  .works .nav {
-    margin-left: 10%;
-  }
-  .works .nav-item {
-    margin-right: 0px;
-  }
-  .works .nav-link {
-    padding: 5px 10px;
-  }
-
-  .team-photos-effect {
-    margin-bottom: 30px;
-  }
-  .team-photos-effect:hover .team-photos-effect-hover {
-    display: none;
-  }
-  .team-photos-effect:hover .team-photos-effect-name {
-    color: #222;
-  }
-
-  .discuss-fix {
-    position: relative;
-  }
-  .discuss h4 {
-    text-align: center;
-  }
-  .discuss h2 {
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .discuss .address {
-    text-align: center;
-    padding-bottom: 70px;
-  }
-  .discuss .say-hello-message {
-    margin-top: 0;
-  }
-  .discuss .say-hello-btn {
-    float: left;
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
-  .discuss .socials {
-    text-align: center;
-    width: 100%;
-    margin-top: 30px;
-  }
-  .discuss .socials .fa {
-    display: inline-block;
-  }
-  .discuss .socials a {
-    color: #444;
-  }
-
-  .footer {
-    text-align: center;
-  }
-  .footer .subscribe {
-    margin-top: 20px;
-  }
-  .footer .subscribe h4 {
-    margin-bottom: 10px;
-  }
-  .footer .subscribe-input {
-    margin-left: calc(50% - 120px);
-  }
-  .footer .subscribe-input-btn {
-    left: 200px;
-  }
-  .footer .explore {
-    margin-top: 20px;
-    margin-left: 0;
-  }
-  .footer .explore-links {
-    margin: 0;
-  }
-  .footer .explore-links-first {
-    margin-right: 0;
-  }
-  .footer .explore-links-fisrt, .footer .explore-links-last {
-    display: block;
-  }
-}
-@media screen and (max-width: 575px) {
-  .offers-logo .fa {
-    left: 240px;
-  }
-
-  .discuss h2 {
-    top: 120px;
-  }
-  .discuss .address {
-    width: 95%;
-  }
-  .discuss .address p {
-    padding-left: 50px;
-  }
-  .discuss .say-hello {
-    text-align: center;
-  }
-  .discuss .say-hello .form-input {
-    width: 70%;
-  }
-
-  #scroll {
-    display: none;
   }
 }
 

@@ -1,0 +1,265 @@
+@media screen and (max-width: 1199px) {
+  .header h1 {
+    margin-top: 250px;
+  }
+
+  .features .circle {
+    left: 0px;
+  }
+
+  .offers-hover {
+    margin: 20px 0;
+  }
+  .offers-info .offers-title {
+    padding-top: 0px;
+  }
+  .offers-logo {
+    top: 75px;
+  }
+
+  .works .nav {
+    width: 70%;
+    margin-left: 20%;
+  }
+
+  .team-photos-effect-hover {
+    left: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  header .header {
+    height: 80px;
+  }
+  header .header .navbar-toggler {
+    outline: none;
+  }
+  header .header .fa-bars {
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  header .header .navbar-nav {
+    margin-top: 20px;
+    text-align: right;
+  }
+  header .header .nav-item {
+    padding-right: 0;
+  }
+  header .header .nav-item .nav-link {
+    margin-right: 0;
+  }
+
+  .features {
+    text-align: center;
+  }
+  .features .heart {
+    margin-bottom: 50px;
+  }
+  .features .circle {
+    left: calc(50% - 17px);
+  }
+  .features-descr {
+    margin-top: 50px;
+    padding-left: 0;
+  }
+
+  .offers {
+    background: none;
+    background-color: #FCFCFC;
+  }
+  .offers-descr {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .works .nav {
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .team-photos-effect {
+    margin-bottom: 30px;
+  }
+  .team-photos-effect-hover {
+    left: 53px;
+  }
+
+  .footer-descr {
+    padding-right: 10px;
+  }
+  .footer .subscribe-input + p {
+    margin-right: 0px;
+    padding-right: 0;
+  }
+  .footer .explore {
+    margin-left: 60px;
+  }
+  .footer .explore-links {
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  header h1 {
+    font-size: 50px;
+  }
+  header h1 + p {
+    font-size: 35px;
+  }
+
+  .offers {
+    text-align: center;
+  }
+  .offers-info {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-top: 10px;
+  }
+  .offers-info .offers-title {
+    padding-top: 0;
+  }
+  .offers-logo {
+    top: 50px;
+    left: 50%;
+    transform: translateX(-80%);
+  }
+
+  .works-images-effect:hover .works-images-effect-hover {
+    display: none;
+  }
+  .works .nav {
+    width: 100%;
+    margin-left: 0;
+  }
+  .works .nav-link {
+    padding: 10px 15px;
+  }
+
+  .team-photos-effect {
+    margin-bottom: 30px;
+  }
+  .team-photos-effect:hover .team-photos-effect-hover {
+    display: none;
+  }
+  .team-photos-effect:hover .team-photos-effect-name {
+    color: #222;
+  }
+
+  .discuss-fix {
+    position: relative;
+  }
+  .discuss h4 {
+    text-align: center;
+  }
+  .discuss h2 {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .discuss .address {
+    text-align: center;
+    padding-bottom: 70px;
+  }
+  .discuss .say-hello-message {
+    margin-top: 0;
+  }
+  .discuss .say-hello-btn {
+    float: left;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .discuss .socials {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .discuss .socials .fa {
+    display: inline-block;
+  }
+  .discuss .socials a {
+    color: #444;
+  }
+
+  .footer {
+    text-align: center;
+  }
+  .footer .subscribe {
+    margin-top: 20px;
+  }
+  .footer .subscribe h4 {
+    margin-bottom: 10px;
+  }
+  .footer .subscribe-input {
+    margin-left: calc(50% - 120px);
+  }
+  .footer .subscribe-input-btn {
+    left: 200px;
+  }
+  .footer .explore {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .footer .explore-links {
+    margin: 0;
+  }
+  .footer .explore-links-first {
+    margin-right: 0;
+  }
+  .footer .explore-links-fisrt, .footer .explore-links-last {
+    display: block;
+  }
+}
+@media screen and (max-width: 575px) {
+  .works .nav {
+    display: none;
+  }
+
+  .discuss h2 {
+    top: 120px;
+  }
+  .discuss .address {
+    width: 95%;
+  }
+  .discuss .address p {
+    padding-left: 50px;
+  }
+  .discuss .say-hello {
+    text-align: center;
+  }
+  .discuss .say-hello .form-input {
+    width: 70%;
+  }
+
+  #scroll {
+    display: none;
+  }
+}
+@media screen and (max-width: 438px) {
+  header h1 {
+    font-size: 40px;
+  }
+  header h1 + p {
+    font-size: 20px;
+  }
+  header h1 + p + p {
+    font-size: 12px;
+  }
+  header h1 + p + p .line-first {
+    margin-right: 15px;
+    width: 24px;
+  }
+  header h1 + p + p .line-last {
+    margin-left: 15px;
+    width: 24px;
+  }
+
+  .discuss .address p {
+    padding-left: 0;
+  }
+  .discuss .socials .fa {
+    margin-left: 10px;
+  }
+}
+
+/*# sourceMappingURL=media-queries.css.map */
