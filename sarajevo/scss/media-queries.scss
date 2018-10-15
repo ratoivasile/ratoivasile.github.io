@@ -263,7 +263,9 @@
     
     .works{        
         .nav{            
-            display: none;
+            &-item{
+                width: 100%;
+            }
         }
     }    
     .discuss{ 
