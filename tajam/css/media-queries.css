@@ -1,0 +1,168 @@
+@media screen and (max-width: 1199px) {
+  .header .collapse .navbar-nav {
+    margin-left: 20%;
+  }
+
+  .works h3 + a {
+    margin-left: 55%;
+  }
+
+  .feedback-carousel .fa-chevron-left {
+    top: 320px;
+    left: 145px;
+  }
+  .feedback-carousel .fa-chevron-right {
+    top: 320px;
+    left: 410px;
+  }
+
+  .footer .d-flex .help a {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header .collapse .navbar-nav {
+    margin-left: 0;
+  }
+  .header .navbar-brand {
+    margin-top: 10px;
+  }
+
+  .team figure {
+    margin-left: calc(50% - 111px);
+  }
+
+  .works h3 + a {
+    margin-left: 40%;
+  }
+
+  .feedback-carousel .fa-chevron-left {
+    top: 370px;
+    left: 85px;
+  }
+  .feedback-carousel .fa-chevron-right {
+    top: 370px;
+    left: 330px;
+  }
+
+  .contact .section-title {
+    text-align: center;
+  }
+  .contact-form input, .contact-form textarea {
+    margin-left: calc(50% - 225px);
+  }
+  .contact-form .tajam-btn {
+    margin-bottom: 30px;
+    margin-left: calc(50% - 60px);
+  }
+  .contact .brands {
+    text-align: center;
+  }
+  .contact .brands img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: block;
+  }
+
+  .footer {
+    text-align: center;
+  }
+  .footer h5 {
+    margin-top: 15px;
+  }
+  .footer .address {
+    margin-top: 10px;
+  }
+  .footer .address .fa {
+    top: 15px;
+    left: 30px;
+  }
+  .footer .phone .fa {
+    top: 55px;
+    left: 280px;
+  }
+  .footer .socials p a {
+    margin-left: 0;
+  }
+  .footer .help {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .story h3 {
+    margin-top: 20px;
+  }
+  .story h3, .story p {
+    text-align: center;
+  }
+  .story a {
+    margin-left: calc(50% - 60px);
+  }
+
+  .works h3 {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .works h3 + a {
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .feedback-carousel .fa-chevron-left {
+    top: 420px;
+    left: 50px;
+  }
+  .feedback-carousel .fa-chevron-right {
+    top: 420px;
+    left: 260px;
+  }
+
+  .contact-form input, .contact-form textarea {
+    width: 300px;
+    margin-left: calc(50% - 150px);
+  }
+
+  .footer .address .fa {
+    top: 13px;
+    left: 50px;
+  }
+  .footer .phone .fa {
+    top: 79px;
+    left: 190px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .contact-form input, .contact-form textarea {
+    width: 250px;
+    margin-left: calc(50% - 125px);
+  }
+
+  .footer h5 {
+    margin-top: 40px;
+  }
+  .footer .address {
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .footer .address .fa {
+    display: none;
+  }
+  .footer .phone {
+    margin-left: 0;
+  }
+  .footer .phone .fa {
+    display: none;
+  }
+  .footer form {
+    margin-top: 10px;
+  }
+  .footer .socials {
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=media-queries.css.map */
