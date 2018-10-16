@@ -7,10 +7,7 @@ $(document).ready(function(){
     
 
     // SCROLL
-    $(window).scroll(function(){
-        if($(document).scrollTop()>50){
-            $('.header').css('display', 'fixed');
-        }
+    $(window).scroll(function(){        
         if($(this).scrollTop() > 500){
             $('#scroll').fadeIn();
         } else{
