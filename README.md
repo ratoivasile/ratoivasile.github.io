@@ -5,3 +5,5 @@
 [Sarajevo.](https://ratoivasile.github.io/sarajevo/ "sarajevo.")
 
 [Tajam](https://ratoivasile.github.io/tajam/ "tajam")
+
+[Test for Webmaster Studei](https://ratoivasile.github.io/test/ "test")
