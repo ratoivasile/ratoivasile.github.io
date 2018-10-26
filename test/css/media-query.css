@@ -1,0 +1,148 @@
+@media screen and (max-width: 1199px) {
+  .header .navbar-collapse {
+    margin-left: 5%;
+  }
+  .header .navbar-collapse .navbar-nav .nav-item {
+    border: none;
+  }
+  .header .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 10px;
+  }
+
+  .news figure figcaption {
+    width: 278px;
+    left: 86px;
+  }
+
+  .contact form .button {
+    margin-left: -32px;
+  }
+
+  .footer form .button {
+    padding: 13px 20px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header .navbar-collapse {
+    margin-top: 60px;
+    margin-left: -18px;
+  }
+  .header .navbar {
+    position: relative;
+  }
+  .header .navbar-brand {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .header .navbar-toggler {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .header .navbar .nav-item {
+    margin-top: 5px;
+  }
+  .header .navbar .nav-item .nav-link {
+    font-size: 14px !important;
+  }
+  .header .praxis-sub-menu {
+    display: none !important;
+  }
+  .header h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .header-descr {
+    font-size: 24px;
+  }
+
+  .news figure figcaption {
+    left: 26px;
+  }
+
+  .contact form {
+    text-align: center;
+  }
+  .contact form .input-placeholder:first-child {
+    margin-bottom: 20px;
+  }
+  .contact form .button {
+    margin-left: 0;
+  }
+
+  .footer {
+    text-align: center;
+  }
+  .footer .navigation {
+    margin-bottom: 20px;
+  }
+  .footer form {
+    text-align: center;
+  }
+  .footer form input {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .footer form .placeholder {
+    left: 130px;
+  }
+  .footer .created-by p {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 767px) {
+  .header .navbar-brand {
+    top: -7px;
+  }
+  .header h1 {
+    margin-top: 100px;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .header-descr {
+    font-size: 20px;
+  }
+
+  .news figure figcaption {
+    left: 116px;
+  }
+
+  .contact h3 {
+    font-size: 36px;
+  }
+
+  .footer form .placeholder {
+    left: 90px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .news figure figcaption {
+    position: relative;
+    left: 0;
+    margin-left: 50%;
+    transform: translateY(0);
+    transform: translateX(-50%);
+  }
+  .news figure figcaption h6, .news figure figcaption p {
+    text-align: center;
+  }
+  .news figure figcaption .button {
+    margin-left: calc(50% - 86px);
+  }
+
+  .contact h3 {
+    font-size: 26px;
+  }
+
+  .footer form input {
+    width: 250px;
+  }
+  .footer form .placeholder {
+    left: calc(50% - 30px);
+  }
+}
+
+/*# sourceMappingURL=media-query.css.map */
