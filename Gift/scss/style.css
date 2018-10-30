@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#bsm-gift-box .bsm-gift {
+  position: relative;
+}
+
+#bsm-gift-box .bsm-gift-box {
+  width: 128px;
+  height: 128px;
+  border: 10px solid #000;
+  background-color: #FFCC00;
+}
+/*# sourceMappingURL=style.css.map */
