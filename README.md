@@ -6,4 +6,4 @@
 
 [Tajam](https://ratoivasile.github.io/tajam/ "tajam")
 
-[Test for Webmaster Studei](https://ratoivasile.github.io/test/ "test")
+[Test for Webmaster Studio](https://ratoivasile.github.io/test/ "test")
